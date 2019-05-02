@@ -6,7 +6,7 @@ be ansible_host=be1 nginx=true
 mysql ansible_host=mysql2 mysql=true
 be ansible_host=be2 nginx=true
 
-dev]
+[dev]
 mysql ansible_host=mysql3 mysql=true
 be ansible_host=be3 nginx=true
 
