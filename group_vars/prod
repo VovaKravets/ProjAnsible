@@ -1,11 +1,9 @@
-mysql_root_user: root
+mysql_root_user    : root
 mysql_root_password: root
-
-mysql_port: 3306
-mysql_user: voha
-mysql_password: voha
-mysql_user_hosts:
+mysql_port         : 3306
+mysql_user         : voha
+mysql_password     : voha
+mysql_user_hosts   :
 - 172.16.0.%
-
-mysql_user_test: voha
+mysql_user_test    : voha
 mysql_password_test: voha
