@@ -1,0 +1,6 @@
+- name: pull
+  shell: docker pull myapp/java_test_app
+
+- name: run
+  shell: docker run -dti --network=host myapp/java_test_app
+
