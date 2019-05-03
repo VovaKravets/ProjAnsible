@@ -1,3 +1,4 @@
+---
 - include: install_mysql.yml
 - include: create_user.yml
 - include: add_hosts.yml
