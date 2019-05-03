@@ -1,5 +1,5 @@
 [prod]
-mysql ansible_host=mysql1 mysql=true
+mysql ansible_host=mysql.preo mysql=true
 be ansible_host=be1 nginx=true
 
 [dev]
