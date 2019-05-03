@@ -1,12 +1,12 @@
 [prod]
 mysql ansible_host=mysql.preo mysql=true
-be ansible_host=be1 nginx=true
+be ansible_host=be nginx=true
 
 [dev]
-mysql ansible_host=mysql2 mysql=true
+mysql ansible_host=mysql.preo2 mysql=true
 be ansible_host=be2 nginx=true
 
 [test]
-mysql ansible_host=mysql3 mysql=true
+mysql ansible_host=mysql.preo3 mysql=true
 be ansible_host=be3 nginx=true
 
