@@ -1,3 +1,4 @@
+---
 - name: pull
   shell: docker pull myapp/java_test_app
 
