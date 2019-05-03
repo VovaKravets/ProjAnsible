@@ -1,3 +1,4 @@
+---
 - name: Install python
   become: true
   raw: test -e /usr/bin/python || (apt -y update && apt install -y python)
